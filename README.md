@@ -49,13 +49,13 @@ UI/UX Designer & Creator: Jonathan Montoya
 Developer: Franz Rivas
 
 ## Licence
-Postagram Proprietary License v1.0
+Postagram Landing Page License v1.0
 
 Copyright (c) 2023 Franz Rivas
 
 All rights reserved.
 
-This software and its source code are the confidential and proprietary information of [Author] and may not be disclosed, copied, reproduced or distributed to anyone without prior written consent from [Author]. This software is provided 'as is' and without any express or implied warranties, including, without limitation, the implied warranties of merchantability and fitness for a particular purpose.
+This software and its source code are the confidential and proprietary information of Franz Rivas and may not be disclosed, copied, reproduced or distributed to anyone without prior written consent from Franz Rivas. This software is provided 'as is' and without any express or implied warranties, including, without limitation, the implied warranties of merchantability and fitness for a particular purpose.
 
 Unauthorized reproduction, modification, or distribution of this software, or any portion of it, may result in severe civil and criminal penalties and will be prosecuted to the maximum extent possible under the law.
 
