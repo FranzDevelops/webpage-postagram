@@ -1,5 +1,6 @@
 ---
-import Header from '../layouts/header.astro'
+import Navbar from '../layouts/navbar.astro'
+import Hero from '../components/organisms/hero.astro'
 ---
 
 <html lang="en">
@@ -14,6 +15,8 @@ import Header from '../layouts/header.astro'
 		<title>Astro</title>
 	</head>
 	<body>
-		<Header />
+		<Navbar />
+		<Hero />
 	</body>
+	<script type="module" src="./styles/fonts.css"></script>
 </html>

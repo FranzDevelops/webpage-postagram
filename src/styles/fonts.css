@@ -6,14 +6,14 @@
 }
 
 @font-face {
-    font-family: 'Poppins';
+    font-family: 'Poppins-Medium';
     src: url('/public/assets/fonts/poppins/Poppins-Medium.ttf') format('truetype');
     font-weight: medium;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Poppins';
+    font-family: 'Poppins-Bold';
     src: url('/public/assets/fonts/poppins/Poppins-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;

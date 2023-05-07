@@ -1,0 +1,67 @@
+---
+import logo from '/assets/images/logo.svg'
+import hero from '/assets/images/hero_image.svg'
+import chatimg from '/assets/images/chats.svg'
+import social from '/assets/images/social_media.svg'
+---
+
+<section>
+    <div class="hero">
+        <div class="brand">
+            <img src={logo} alt='Logo' class="logo"/>
+            <h1>Postagram</h1>
+        </div>
+        <div class="hero-image">
+            <img src={hero} alt='Hero'/>
+            <img src={chatimg} alt="Chats" />
+        </div>
+    </div>
+    <div class="data">
+        <h2>Personalized and unique content</h2>
+        <p>automatic generation of text using language models</p>
+        <img src={social} alt='Social Media'/>
+    </div>
+</section>
+
+<style>
+    section {
+        background-image: url('/assets/images/background.svg');
+        background-repeat: no-repeat;
+        background-size: 60vw auto;
+        background-position-x: 30vw;
+        height: 60vw;
+        margin-left: 10vw;
+    }
+
+    .data {
+        font-size: 2vw;
+    }
+
+    .hero {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hero-image {
+        height: 10vw;
+    }
+
+    .brand {
+        display: flex;
+        align-items: center;
+        height: 17vw;
+    }
+
+    .logo {
+        width: 20vw;
+        height: auto;
+    }
+
+    .brand h1 {
+        margin: 0;
+        color: #1C3B50;
+        font-family: 'Poppins', serif;
+        font-size: 5vw;
+        font-weight: 500;
+    }
+</style>
