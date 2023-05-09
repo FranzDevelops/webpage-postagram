@@ -1,8 +1,8 @@
 ---
-import logo from '/assets/images/logo.svg'
-import hero from '/assets/images/hero_image.svg'
-import chatimg from '/assets/images/chats.svg'
-import social from '/assets/images/social_media.svg'
+import logo from '/images/home/brand/logo.svg'
+import hero from '/images/home/brand/hero_image.svg'
+import chatimg from '/images/home/brand/chats.svg'
+import social from '/images/home/brand/social_media.svg'
 ---
 
 <section>
@@ -25,7 +25,7 @@ import social from '/assets/images/social_media.svg'
 
 <style>
     section {
-        background-image: url('/assets/images/background.svg');
+        background-image: url('/images/home/brand/background.svg');
         background-repeat: no-repeat;
         background-size: 60vw auto;
         background-position-x: 30vw;
@@ -35,6 +35,8 @@ import social from '/assets/images/social_media.svg'
 
     .data {
         font-size: 2vw;
+        width: 30vw;
+        margin-top: 5vw;
     }
 
     .hero {
@@ -43,6 +45,7 @@ import social from '/assets/images/social_media.svg'
     }
 
     .hero-image {
+        margin-left: 5vw;
         height: 10vw;
     }
 
@@ -57,10 +60,13 @@ import social from '/assets/images/social_media.svg'
         height: auto;
     }
 
+    .hero-image img {
+        width: 25vw;
+    }
     .brand h1 {
         margin: 0;
         color: #1C3B50;
-        font-family: 'Poppins', serif;
+        font-family: 'Poppins-Medium', serif;
         font-size: 5vw;
         font-weight: 500;
     }

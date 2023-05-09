@@ -1,22 +1,14 @@
 ---
-import Navbar from '../layouts/navbar.astro'
-import Hero from '../components/organisms/hero.astro'
+import Layout from '../layouts/layout.astro'
+import Brand from '../components/home/brand.astro'
+import TextOne from '../components/home/text-one.astro'
+import TextTwo from '../components/home/text-two.astro'
+import Bottom from '../components/home/bottom.astro'
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
-		<link rel="manifest" href="/assets/icons/site.webmanifest">
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<Navbar />
-		<Hero />
-	</body>
-	<script type="module" src="./styles/fonts.css"></script>
-</html>
+<Layout>
+	<Brand />
+	<TextOne />
+	<TextTwo />
+	<Bottom />
+</Layout>
