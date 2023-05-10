@@ -1,0 +1,53 @@
+---
+import ninja from '/images/home/text-one/ninja.svg'
+import brain from '/images/home/text-two/brain.svg'
+---
+
+<section>
+    <div class="ninja">
+        <img src={ninja} alt="Ninja">
+        <div class="data">
+            <h2>Online design and editing</h2>
+            <p>
+                AI-powered design tools can automate certain tasks and suggest edits, 
+                which can help designers save time and work more efficiently.
+            </p>
+        </div>
+    </div>
+    <div class="brain">
+        <div class="data">
+            <h2>AI-powered design tools</h2>
+            <p>
+                Automatic text generation using language models
+            </p>
+        </div>
+        <img src={brain} alt="Brain">
+    </div>
+</section>
+
+<style>
+    section {
+        margin: 0 0 15vw 0;
+    }
+    .ninja {
+        display: flex;
+        margin-left: 6vw;
+        width: 80vw;
+    }
+    .ninja img {
+        width: 50vw;
+    }
+    .data {
+        font-size: 2vw;
+        width: 30vw;
+    }
+    .brain {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 80vw;
+    }
+    .brain img {
+        width: 50vw;
+    }
+</style>

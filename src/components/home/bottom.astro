@@ -1,14 +1,47 @@
 ---
 import heroposts from '/images/home/heroposts.svg'
+import media from '/images/home/brand/social_media.svg'
 ---
 
 <section>
-    <img src={heroposts} alt="Posts" />
+    <h3>Automatic text generation using language models</h3>
+    <img src={heroposts} alt="Posts" class="hero-posts"/>
+    <img src={media} alt="Social Media" class="media"/>
+    <a href="/contact"><div>Contact Us</div></a>
 </section>
 
 <style>
     section {
-        width: 40vw;
-        margin: 0 auto;
+        background-image: url('/images/home/bottom-background.svg');
+        background-repeat: no-repeat;
+        background-size: 40vw auto;
+        background-position-x: 60vw;
+        background-position-y: 100%;
     }
+    h3 {
+        margin: 0 auto 15vw auto;
+        color: #1C3B50;
+        font-size: 3vw;
+        width: 50vw;
+        font-weight: 400;
+        text-align: center;
+    }
+    .hero-posts {
+        margin-left: 10vw;
+        width: 50vw;
+    }
+    .media {
+        width: 40vw;
+        margin: 10vw auto;
+    }
+
+    a div{
+        background: #00CFFD;
+        color: white;
+        text-align: center;
+        font-size: 3vw;
+        margin: 0 auto;
+        width: 20vw;
+    }
+
 </style>
