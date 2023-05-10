@@ -1,30 +1,28 @@
 ---
 import logo from '/images/home/brand/logo.svg'
-import hero from '/images/home/brand/hero_image.svg'
-import chatimg from '/images/home/brand/chats.svg'
+import hero from '/images/home/brand/hero.svg'
 import social from '/images/home/brand/social_media.svg'
 ---
 
 <section>
-    <div class="hero">
+    <div>
         <div class="brand">
-            <img src={logo} alt='Logo' class="logo"/>
+            <img src={logo} alt="Logo" class="logo"/>
             <h1>Postagram</h1>
         </div>
-        <div class="hero-image">
-            <img src={hero} alt='Hero'/>
-            <img src={chatimg} alt="Chats" />
+        <div class="data">
+            <h2>Personalized and unique content</h2>
+            <p>automatic generation of text using language models</p>
+            <img src={social} alt="Social Media"/>
         </div>
     </div>
-    <div class="data">
-        <h2>Personalized and unique content</h2>
-        <p>automatic generation of text using language models</p>
-        <img src={social} alt='Social Media'/>
-    </div>
+    <img src={hero} alt="Hero"class="hero-image"/>
 </section>
 
 <style>
     section {
+        display: flex;
+        justify-content: space-between;
         background-image: url('/images/home/brand/background.svg');
         background-repeat: no-repeat;
         background-size: 60vw auto;
@@ -38,30 +36,23 @@ import social from '/images/home/brand/social_media.svg'
         width: 30vw;
         margin-top: 5vw;
     }
-
-    .hero {
-        display: flex;
-        justify-content: space-between;
-    }
-
     .hero-image {
-        margin-left: 5vw;
-        height: 10vw;
+        margin-right: 5vw;
+        width: 44vw;
+        position: absolute;
+        right: 3vw;
     }
-
     .brand {
         display: flex;
         align-items: center;
         height: 17vw;
     }
-
     .logo {
         width: 20vw;
         height: auto;
     }
-
-    .hero-image img {
-        width: 25vw;
+    .data img {
+        width: 20vw;
     }
     .brand h1 {
         margin: 0;

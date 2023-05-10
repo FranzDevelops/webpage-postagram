@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('/fonts/poppins/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: url('/fonts/poppins/Poppins-Medium.ttf') format('truetype');
+    font-weight: medium;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url('/fonts/poppins/Poppins-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neue-Machina-Plain';
+    src: url('/fonts/machina/PPNeueMachina-PlainRegular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Neue-Machina-Plain', serif;
+    background: radial-gradient(234.12% 93.04% at 0% 2.35%, #FFFFFF 31.25%, #CDFCFF 50.29%, #FFFFFF 76.88%, #F1F2F4 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+@keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}    
