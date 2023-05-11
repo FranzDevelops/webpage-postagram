@@ -1,11 +1,12 @@
 ---
+import { Image } from '@astrojs/image/components'
 import ninja from '/images/home/text-one/ninja.svg'
 import brain from '/images/home/text-two/brain.svg'
 ---
 
 <section>
     <div class="ninja">
-        <img src={ninja} alt="Ninja">
+        <Image src={ninja} alt="Ninja">
         <div class="data">
             <h2>Online design and editing</h2>
             <p>
@@ -21,7 +22,7 @@ import brain from '/images/home/text-two/brain.svg'
                 Automatic text generation using language models
             </p>
         </div>
-        <img src={brain} alt="Brain">
+        <Image src={brain} alt="Brain">
     </div>
 </section>
 
