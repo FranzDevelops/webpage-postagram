@@ -3,9 +3,9 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "dev": "astro dev",
+    "dev": "astro dev --mode ssg",
     "start": "astro dev",
-    "build": "astro build",
+    "build": "astro build --ssg",
     "preview": "astro preview",
     "astro": "astro"
   },
